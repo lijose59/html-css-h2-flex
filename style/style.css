@@ -1,0 +1,28 @@
+*, *::before, *::after{
+    margin: 0;
+    box-sizing:border-box;
+}
+header{
+    background: #93B5C9;
+    height: 90px;
+}
+main{
+    background: #AB2849;
+    height: 160px;
+    margin-bottom: 20px;
+}
+div{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width: 80%;
+}
+section{
+    height: 80px;
+    background: #AB2849;
+}
+footer{
+    height: 70px;
+    background: #AB2849;
+    margin:20px 25px 10px 25px
+}
